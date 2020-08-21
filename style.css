@@ -1,0 +1,80 @@
+body {
+    background-color: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    background-color: #562EFF;
+}
+.navbar {
+    max-width: 870px;
+}
+.navbar img {
+    width: 45px;
+}
+.Player img {
+    width: 56px;
+}
+.Player p {
+    font-size: 18px;
+    line-height: 27px;
+}
+.player-bg, .courses-bg {
+    background-color: white;
+    width: 870px;
+    padding: 33px;
+    border-radius: 15px;
+}
+.heighlight {
+    color: #562EFF;
+}
+.blog img {
+    width: 177px;
+}
+.blog-details h5 {
+    line-height: 34px;
+}
+.blog-details small {
+    font-size: 16px;
+    line-height: 24px;
+}
+.courses-bg img {
+    width: 224px;
+    padding: 10px 0 0px 15px;
+}
+.courses-bg small {
+    color: #ED6B4F;
+    font-size: 14.6913px;
+}
+.courses-bg .star img {
+    width: 30px;
+    padding-bottom: 12px;
+}
+.star p {
+    margin-left: -13px;
+}
+.rating p{
+    font-size: 14.6913px;
+}
+.star {
+    padding-top: 5px;
+}
+.card {
+    border: none;
+    box-shadow: 1px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+    height: 260px;
+    border-radius: 10px;
+}
+.time  p{
+    background-color: rgb(255, 209, 209);
+    border-radius: 20px;
+    color: rgb(233, 64, 64);
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 960px) {
+    .card-deck {
+        flex-direction: column;
+        max-width: 330px;
+    }
+}
